@@ -4,7 +4,6 @@ const router = express.Router();
 let transport = nodemailer.createTransport({
     host: 'smtp.gmail.com',
     port: 587,
-	secure: false, // true for 465, false for other ports
     auth: {
 		user: "mbavazijoshua@gmail.com",
 		pass: "joshua@1998.com"
