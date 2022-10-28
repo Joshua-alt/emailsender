@@ -21,7 +21,7 @@ router.post('/', (req, res) => {
 	    from: `${req.body.sender}`, // Sender address
 	    to: `${req.body.reciever}`,         // recipients
 	    subject: `${req.body.title}`, // Subject line
-	    text:  ` message: ${req.body.message}by ` // Plain text body
+	    text:  ` message: ${req.body.message} ` // Plain text body
 	};
 	console.log('service')
 	console.log('joshua email seder', message)
