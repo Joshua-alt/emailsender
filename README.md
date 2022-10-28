@@ -1,4 +1,4 @@
-# Express API Starter
+# Express API Email sender
 
 Includes API Server utilities:
 
