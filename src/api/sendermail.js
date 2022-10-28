@@ -2,11 +2,12 @@ const express = require('express');
 const nodemailer = require('nodemailer');
 const router = express.Router();
 let transport = nodemailer.createTransport({
-    host: 'smtp.mailtrap.io',
-    port: 2525,
+    host: 'smtp.gmail.com',
+    port: 587,
+	secure: false, // true for 465, false for other ports
     auth: {
-		user: "5bf5e4fba17b39",
-		pass: "694d19a64db0e8"
+		user: "mbavazijoshua@gmail.com",
+		pass: "joshua@1998.com"
     }
 });
 router.get('/', (req, res) => {
