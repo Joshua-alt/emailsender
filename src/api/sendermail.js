@@ -32,7 +32,7 @@ router.post('/', (req, res) => {
 				console.log(err)
 				res.status(500).json({ message: "Something went wrong" });
 				} else {
-				console.log('mail has sent.');
+				console.log('mail has sent well.');
 				res.status(200).json({ message: "mail has sent." });
 				
 				}
